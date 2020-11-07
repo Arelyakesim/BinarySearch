@@ -66,7 +66,3 @@ binary_search(list, 0, len-1, target) #fonksiyon çağrısı
 end_time = time( ) #koşma süresi bitişi
 elapsed = end_time - start_time #çalışma zamanı hesaplandı
 print(elapsed)
-
-
-
-
