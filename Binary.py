@@ -37,7 +37,7 @@ from time import time   #koşma süresini hesaplamak için sınıf oluşturuldu
 start_time = time( )    #koşma süresinin başlangıcı 
 
 def binary_search(list, min, max, target):   #Fonksiyon ve parametreler tanımlandı
-    if max >= min:  #liste boş değilse
+    if max >= min:  #Liste boş değilse
   
         mid = (max + min) // 2 #orta eleman hesaplandı
         
